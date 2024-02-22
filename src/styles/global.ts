@@ -21,6 +21,7 @@ export default createGlobalStyle`
   html, body {
     margin: 0;
     padding: 0;
+    background: #010103;
   }
 
   body {
@@ -28,6 +29,7 @@ export default createGlobalStyle`
     -webkit-font-smoothing: antialiased;
     background: #010103;
     background: linear-gradient(154deg, #010103 35.16%, #561CB2 100%);
+    background-repeat: no-repeat;
   }
 
   body, input, textarea, button {

@@ -1,7 +1,41 @@
 import styled from "styled-components";
 
-const Container = styled.div``;
+const Container = styled.div`
+  width: 100%;
+  max-width: 416px;
+  padding-bottom: 64px;
 
-const Content = styled.div``;
+  margin: 0 auto;
+`;
 
-export default { Container, Content };
+const Content = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+`;
+
+const Divider = styled.div`
+  max-width: 416px;
+  width: 100%;
+  height: 2px;
+  border-radius: 100px;
+  background: #bfbfbf;
+
+  @media screen and (max-width: 425px) {
+    width: 224px;
+  }
+`;
+
+const Links = styled.div`
+  display: flex;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  padding: 2px;
+`;
+
+export default { Container, Content, Divider, Links };
