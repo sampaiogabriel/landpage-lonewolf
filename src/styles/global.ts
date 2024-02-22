@@ -8,9 +8,23 @@ export default createGlobalStyle`
     box-sizing: border-box;
   }
 
+  html {
+    scroll-behavior: smooth;
+    @media (max-width: 1080px) {
+      font-size: 93.75%;
+    }
+    @media (max-width: 720px) {
+      font-size: 87.5%;
+    }
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
+
   body {
     overflow-x: hidden;
-    height: 100vh;
     -webkit-font-smoothing: antialiased;
     background: #010103;
     background: linear-gradient(154deg, #010103 35.16%, #561CB2 100%);
@@ -20,23 +34,8 @@ export default createGlobalStyle`
     font-family: 'Work Sans', sans-serif;
   }
 
-  html {
-    scroll-behavior: smooth;
-
-    @media (max-width: 1080px) {
-      font-size: 93.75%;
-    }
-
-    @media (max-width: 720px) {
-      font-size: 87.5%;
-    }
-
-    height: 100vh;
-    width: 100vw;
-  }
-
   .max-width {
-    max-width: 1440px;
+    max-width: 1216px;
     margin: 0 auto;
   }
 
