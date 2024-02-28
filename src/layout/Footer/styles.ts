@@ -19,12 +19,13 @@ const Content = styled.div`
 const Divider = styled.div`
   max-width: 416px;
   width: 100%;
-  height: 2px;
+  height: 4px;
   border-radius: 100px;
   background: #bfbfbf;
 
   @media screen and (max-width: 425px) {
     width: 224px;
+    height: 2px;
   }
 `;
 

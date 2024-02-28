@@ -2,25 +2,28 @@ import { FC } from "react";
 
 import S from './styles'
 import ButtonSecondary from "../../components/Buttons/Secondary";
-import { InfoCircleOutlined } from "@ant-design/icons";
+import { WhatsAppOutlined } from "@ant-design/icons";
+import Produtos from "../../components/Produtos";
 
 const NossosProdutos: FC = () => {
   const redirect = () => {
+    // TODO: Adicionar o link do wpp 
     console.log('click');
   }
 
   return (
-    <S.Container>
+    <S.Container id="produtos">
       <S.Content className="max-width">
         <h2 className="h2">
           Nossos Produtos
         </h2>
+        <Produtos />
         <S.WhatsappContainer>
-          <span>
+          <small className="small regular">
             Precisa tirar alguma dúvida? Fale conosco!
-          </span>
+          </small>
           <ButtonSecondary id="btn-whatsapp" onClick={redirect}>
-            <><InfoCircleOutlined /> WhatsApp </>
+            <><WhatsAppOutlined /> WhatsApp </>
           </ButtonSecondary>
         </S.WhatsappContainer>
       </S.Content>

@@ -20,9 +20,9 @@ const MenuMobile: FC<MenuMobileProps> = ({ menuIsVisible, setMenuIsVisible }) =>
       <IoClose size={45} onClick={() => setMenuIsVisible(false)} />
       <nav>
         <Link to="/apresentacao" className="link large regular">Apresentação</Link>
-        <Link to="/pontos-de-venda" className="link large regular">Pontos de Venda</Link>
+        <a href="#pontos-de-venda" className="link large regular" onClick={() => setMenuIsVisible(false)}>Pontos de Venda</a>
         <Link to="/catalogo" className="link large regular">Catálogo</Link>
-        <Link to="/produtos" className="link large regular">Produtos</Link>
+        <a href="#produtos" className="link large regular" onClick={() => setMenuIsVisible(false)}>Produtos</a>
       </nav>
     </S.Container>
   )

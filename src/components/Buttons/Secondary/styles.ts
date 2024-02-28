@@ -22,6 +22,13 @@ const Container = styled.button`
   gap: 8px;
   align-items: center;
   justify-content: center;
+
+  transition: color 0.3s, border-color 0.3s;
+
+  &:hover {
+    color: #fff;
+    border-color: #fff;
+  }
 `;
 
 export default { Container };

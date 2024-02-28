@@ -18,4 +18,8 @@ const Content = styled.div`
   }
 `;
 
-export default { Container, Content };
+const Logo = styled.div`
+  cursor: pointer;
+`;
+
+export default { Container, Content, Logo };
