@@ -1,4 +1,5 @@
-import { FC } from "react";
+import { FC, useEffect } from "react";
+import ScrollReveal from 'scrollreveal';
 
 import S from './styles'
 import CardPontoVenda from "../../components/Cards/Card";
@@ -6,6 +7,9 @@ import CardBarbacenaMG from '../../assets/background-card-ponto-venda-barbacena.
 
 
 const PontosVendas: FC = () => {
+  useEffect(() => {
+    ScrollReveal({ reset: true }).reveal('.pontos-de-venda', { duration: 1000 });
+  }, [])
 
   const onClickRedirectVendaBarbacena = () => {
     console.log('click');
@@ -16,8 +20,8 @@ const PontosVendas: FC = () => {
   }
 
   return (
-    <S.Container id="pontos-de-venda">
-      <S.Content className="max-width">
+    <S.Container>
+      <S.Content className="max-width pontos-de-venda">
         <h2 className="h2 semibold">
           Escolha um dos pontos de venda
         </h2>

@@ -1,4 +1,5 @@
-import { FC } from "react";
+import { FC, useEffect } from "react";
+import ScrollReveal from 'scrollreveal'
 
 import S from './styles';
 
@@ -7,9 +8,13 @@ import LogoHeadline from '../../assets/logo_header.png'
 import { CTA } from "../../components/Buttons/CTA";
 
 const Headline: FC = () => {
+  useEffect(() => {
+    ScrollReveal({ reset: true }).reveal('.content', { duration: 1000 });
+  }, []);
+
   return (
     <S.Container>
-      <S.Content className="max-width">
+      <S.Content className="max-width content">
         <S.FraseDestaqueContainer>
           <img src={LogoHeadline} alt="Logo Principal Lonewolf" />
           <div className="destaque">

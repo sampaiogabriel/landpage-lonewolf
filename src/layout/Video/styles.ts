@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const Container = styled.div`
+const Container = styled.section`
   width: 100%;
 `;
 
@@ -21,6 +21,9 @@ const Content = styled.div`
   @media screen and (max-width: 425px) {
     padding: 16px;
   }
+
+  // Animação Scroll Reveal
+  visibility: hidden;
 `;
 
 const Video = styled.div`

@@ -107,4 +107,18 @@ export default createGlobalStyle`
     color: #fcfcfc;
     line-height: 24px;
   }
+
+  // Scroll Bar
+  ::-webkit-scrollbar{
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track{
+    background-color: #010103;
+  }
+
+  ::-webkit-scrollbar-thumb{
+    background-color: #561CB2;
+    border-radius: 8px;
+  }
 `;

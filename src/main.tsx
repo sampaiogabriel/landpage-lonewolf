@@ -8,8 +8,8 @@ import {
 
 import Inicio from './pages/Inicio';
 import Catalogo from './pages/Catalogo';
-import Produto from './pages/Produto';
 import ErrorPage from './pages/ErrorPage';
+import PontosDeVenda from './pages/PontosDeVenda';
 
 const router = createBrowserRouter([
   {
@@ -23,8 +23,8 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />
   },
   {
-    path: "/produto",
-    element: <Produto />,
+    path: "/pontos-de-venda",
+    element: <PontosDeVenda />,
     errorElement: <ErrorPage />
   },
 ]);

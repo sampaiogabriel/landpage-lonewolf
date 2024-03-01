@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const Container = styled.div`
+const Container = styled.section`
   width: 100%;
 `;
 
@@ -24,6 +24,9 @@ const Content = styled.div`
       line-height: 32px; /* 133.333% */
     }
   }
+
+  // Animação Scroll Reveal
+  visibility: hidden;
 `;
 
 const WhatsappContainer = styled.div`

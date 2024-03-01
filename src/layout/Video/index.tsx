@@ -1,11 +1,19 @@
-import { FC } from "react";
+import { FC, useEffect } from "react";
+import ScrollReveal from 'scrollreveal'
 
 import S from './styles'
 
 const Video: FC = () => {
+
+  useEffect(() => {
+    ScrollReveal({ reset: true }).reveal('.video', {
+      duration: 2000
+    });
+  }, [])
+
   return (
     <S.Container>
-      <S.Content className="max-width">
+      <S.Content className="max-width video">
         <S.Video>
           <iframe width="100%" height="274"
             src="https://www.youtube.com/embed/rN_zkpV52J0?si=NByPkRN2Jrje-mWO"

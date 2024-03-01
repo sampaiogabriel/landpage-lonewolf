@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const Container = styled.div`
+const Container = styled.section`
   width: 100%;
 `;
 
@@ -49,6 +49,9 @@ const Content = styled.div`
       line-height: 24px; /* 200% */
     }
   }
+
+  // Animação Scroll Reveal
+  visibility: hidden;
 `;
 
 const CardPontoVendaContainer = styled.div`

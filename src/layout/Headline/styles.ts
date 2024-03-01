@@ -25,6 +25,9 @@ const Content = styled.div`
   @media screen and (max-width: 425px) {
     padding: 32px;
   }
+
+  // Animação Scroll Reveal
+  visibility: hidden;
 `;
 
 const FraseDestaqueContainer = styled.div`
