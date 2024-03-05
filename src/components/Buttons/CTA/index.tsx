@@ -11,9 +11,9 @@ interface CTAProps {
   href?: string;
 }
 
-export const CTA: FC<CTAProps> = ({ id, children, style, className, href }) => {
+export const CTA: FC<CTAProps> = ({ id, children, style, className }) => {
   return (
-    <S.Container id={id} style={style} className={className} href={href}>
+    <S.Container id={id} style={style} className={className}>
       <span>{children}</span>
     </S.Container>
   )

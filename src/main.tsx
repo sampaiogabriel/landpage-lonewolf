@@ -10,22 +10,27 @@ import Inicio from './pages/Inicio';
 import Catalogo from './pages/Catalogo';
 import ErrorPage from './pages/ErrorPage';
 import PontosDeVenda from './pages/PontosDeVenda';
+import App from './App'
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Inicio />,
-    errorElement: <ErrorPage />
-  },
-  {
-    path: "/catalogo",
-    element: <Catalogo />,
-    errorElement: <ErrorPage />
-  },
-  {
-    path: "/pontos-de-venda",
-    element: <PontosDeVenda />,
-    errorElement: <ErrorPage />
+    element: <App />,
+    errorElement: <ErrorPage />,
+    children: [
+      {
+        path: "/",
+        element: <Inicio />,
+      },
+      {
+        path: "/catalogo",
+        element: <Catalogo />,
+      },
+      {
+        path: "/pontos-de-venda",
+        element: <PontosDeVenda />,
+      },
+    ]
   },
 ]);
 
