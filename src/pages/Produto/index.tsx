@@ -1,7 +1,10 @@
 import { FC } from "react";
+import { useParams } from "react-router-dom";
 
 const Produto: FC = () => {
-  return <></>
+  const { produto } = useParams();
+
+  return <>{produto}</>
 }
 
 export default Produto;

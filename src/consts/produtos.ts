@@ -15,8 +15,9 @@ import APPLE_WATCH_SE_2 from "../assets/produtos/APPLE_WATCH_SE_2.png";
 import APPLE_WATCH_S9 from "../assets/produtos/APPLE_WATCH_S9.png";
 import APPLE_WATCH_ULTRA_2 from "../assets/produtos/APPLE_WATCH_ULTRA_2.png";
 import MAC_STUDIO from "../assets/produtos/MAC_STUDIO.png";
+import { Produto } from "../types/Produto";
 
-const PRODUTOS = [
+const PRODUTOS: Produto[] = [
   {
     id: "1",
     produto: "iphone",

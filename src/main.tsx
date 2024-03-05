@@ -12,6 +12,7 @@ import ErrorPage from './pages/ErrorPage';
 import PontosDeVenda from './pages/PontosDeVenda';
 import App from './App'
 import Outros from './pages/Outros';
+import Produto from './pages/Produto';
 
 const router = createBrowserRouter([
   {
@@ -28,12 +29,16 @@ const router = createBrowserRouter([
         element: <Catalogo />,
       },
       {
-        path: "/pontos-de-venda",
-        element: <PontosDeVenda />,
+        path: '/catalogo/:produto',
+        element: <Produto />
       },
       {
         path: "/catalogo/outros",
         element: <Outros />
+      },
+      {
+        path: "/pontos-de-venda",
+        element: <PontosDeVenda />,
       }
     ]
   },

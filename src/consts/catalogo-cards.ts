@@ -27,7 +27,7 @@ const CATALOGO_CARDS = [
     id: "4",
     label: "Apple Watch",
     background: BackgroundCatalogoCard4,
-    url: "/catalogo/apple-watch",
+    url: "/catalogo/applewatch",
   },
   {
     id: "5",
