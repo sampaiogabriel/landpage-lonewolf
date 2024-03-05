@@ -9,7 +9,7 @@ import CardBarbacenaMG from '../../assets/background-card-ponto-venda-barbacena.
 const PontosVendas: FC = () => {
   useEffect(() => {
     ScrollReveal({ reset: true }).reveal('.pontos-de-venda', { duration: 1000 });
-  }, [])
+  }, []);
 
   const onClickRedirectVendaBarbacena = () => {
     console.log('click');

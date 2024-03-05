@@ -9,26 +9,31 @@ const CATALOGO_CARDS = [
     id: "1",
     label: "iPhone",
     background: BackgroundCatalogoCard1,
+    url: "/catalogo/iphone",
   },
   {
     id: "2",
     label: "iPad",
     background: BackgroundCatalogoCard2,
+    url: "/catalogo/ipad",
   },
   {
     id: "3",
     label: "MacBook",
     background: BackgroundCatalogoCard3,
+    url: "/catalogo/macbook",
   },
   {
     id: "4",
     label: "Apple Watch",
     background: BackgroundCatalogoCard4,
+    url: "/catalogo/apple-watch",
   },
   {
     id: "5",
     label: "Outros",
     background: BackgroundCatalogoCard5,
+    url: "/catalogo/outros",
   },
 ];
 

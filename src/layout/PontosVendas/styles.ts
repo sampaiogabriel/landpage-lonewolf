@@ -66,6 +66,7 @@ const CardPontoVendaContainer = styled.div`
   @media screen and (max-width: 425px) {
     margin-top: 8px;
     gap: 16px;
+    flex-direction: column;
   }
 `;
 

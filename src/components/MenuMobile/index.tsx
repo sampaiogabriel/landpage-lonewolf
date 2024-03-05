@@ -1,4 +1,4 @@
-import { FC, useEffect } from "react";
+import { FC, useCallback, useEffect } from "react";
 
 import S from './styles'
 import { IoClose } from "react-icons/io5";
@@ -13,16 +13,19 @@ const MenuMobile: FC<MenuMobileProps> = ({ menuIsVisible, setMenuIsVisible }) =>
 
   useEffect(() => {
     document.body.style.overflowY = menuIsVisible ? 'hidden' : 'auto';
-  }, [menuIsVisible])
+  }, [menuIsVisible]);
+
+  const fecharMenu = useCallback(() => {
+    setMenuIsVisible(false)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
 
   return (
     <S.Container isVisible={menuIsVisible}>
-      <IoClose size={45} onClick={() => setMenuIsVisible(false)} />
+      <IoClose size={45} onClick={fecharMenu} />
       <nav>
-        <Link to="/apresentacao" className="link large regular">Apresentação</Link>
-        <a href="#pontos-de-venda" className="link large regular" onClick={() => setMenuIsVisible(false)}>Pontos de Venda</a>
-        <Link to="/catalogo" className="link large regular">Catálogo</Link>
-        <a href="#produtos" className="link large regular" onClick={() => setMenuIsVisible(false)}>Produtos</a>
+        <Link to="/pontos-de-venda" className="link large regular" onClick={fecharMenu}>Pontos de Venda</Link>
+        <Link to="/catalogo" className="link large regular" onClick={fecharMenu}>Catálogo</Link>
       </nav>
     </S.Container>
   )

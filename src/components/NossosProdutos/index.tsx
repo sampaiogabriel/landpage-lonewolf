@@ -4,7 +4,7 @@ import S from './styles'
 import NOSSOS_PRODUTOS from "../../consts/nossos-produtos";
 import ProdutosCard from "../Cards/Produtos";
 
-const Produtos: FC = () => {
+const NossosProdutos: FC = () => {
   return (
     <S.Container>
       {NOSSOS_PRODUTOS.map(np => (<ProdutosCard {...np} />))}
@@ -12,4 +12,4 @@ const Produtos: FC = () => {
   )
 }
 
-export default Produtos
+export default NossosProdutos

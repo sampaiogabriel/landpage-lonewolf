@@ -14,6 +14,7 @@ import MACBOOK_PRO_M3_MAX from "../assets/produtos/MACBOOK_PRO_M3_MAX.png";
 import APPLE_WATCH_SE_2 from "../assets/produtos/APPLE_WATCH_SE_2.png";
 import APPLE_WATCH_S9 from "../assets/produtos/APPLE_WATCH_S9.png";
 import APPLE_WATCH_ULTRA_2 from "../assets/produtos/APPLE_WATCH_ULTRA_2.png";
+import MAC_STUDIO from "../assets/produtos/MAC_STUDIO.png";
 
 const PRODUTOS = [
   {
@@ -666,6 +667,46 @@ const PRODUTOS = [
           {
             id: "2",
             label: "Prateado",
+          },
+        ],
+      },
+      {
+        id: "5",
+        label: "Mac Studio",
+        src: MAC_STUDIO,
+        ativo: true,
+        especificacoes: [
+          {
+            id: "1",
+            label:
+              "14 Polegadas / Memória RAM: 36GB / 96GB: Chip M3 Max da Apple com CPU de 14 núcleos, GPU de 30 núcleos e Neural Engine de 16 núcleos.",
+          },
+          {
+            id: "2",
+            label:
+              "14 Polegadas / Memória RAM: 48GB / 64GB / 128GB: Chip M3 Max da Apple com CPU de 16 núcleos, GPU de 40 núcleos e Neural Engine de 16 núcleos.",
+          },
+          {
+            id: "3",
+            label:
+              "16 Polegadas / Memória RAM: 36GB / 96GB: Chip M3 Max da Apple com CPU de 14 núcleos, GPU de 30 núcleos e Neural Engine de 16 núcleos.",
+          },
+          {
+            id: "4",
+            label:
+              "16 Polegadas / Memória RAM: 48GB / 64GB / 128GB: Chip M3 Max da Apple com CPU de 16 núcleos, GPU de 40 núcleos e Neural Engine de 16 núcleos.",
+          },
+        ],
+        modelos: [],
+        armazenamento: [],
+        cores: [
+          {
+            id: "1",
+            label: "Prateado",
+          },
+          {
+            id: "2",
+            label: "Preto Espacial",
           },
         ],
       },

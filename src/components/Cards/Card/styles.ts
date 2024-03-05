@@ -13,11 +13,6 @@ const CardContainer = styled.div`
     width: 204px;
     height: 224px;
   }
-
-  @media screen and (max-width: 425px) {
-    width: 96px;
-    height: 124px;
-  }
 `;
 
 const BackgroundImage = styled.div<{ imageUrl: string; isHovered: boolean }>`
@@ -59,12 +54,6 @@ const Title = styled.h3`
     font-size: 24px;
     font-weight: 600;
     line-height: 32px; /* 133.333% */
-  }
-
-  @media screen and (max-width: 425px) {
-    font-size: 12px;
-    font-weight: 600;
-    line-height: 24px; /* 200% */
   }
 `;
 

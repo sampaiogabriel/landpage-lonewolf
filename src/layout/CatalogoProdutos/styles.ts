@@ -11,6 +11,9 @@ const Content = styled.div`
   align-items: center;
   gap: 16px;
   padding: 64px 0px;
+
+  // Animação Scroll Reveal
+  visibility: hidden;
 `;
 
 const Headline = styled.div`
@@ -31,6 +34,7 @@ const Headline = styled.div`
 
   h5 {
     color: #bfbfbf;
+    padding: 0px 8px;
   }
 `;
 
@@ -43,6 +47,10 @@ const ContainerProdutos = styled.div`
   flex-wrap: wrap;
 
   padding: 16px;
+
+  @media screen and (max-width: 425px) {
+    flex-direction: column;
+  }
 `;
 
 export default { Container, Content, Headline, ContainerProdutos };

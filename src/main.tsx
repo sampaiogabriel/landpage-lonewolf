@@ -11,6 +11,7 @@ import Catalogo from './pages/Catalogo';
 import ErrorPage from './pages/ErrorPage';
 import PontosDeVenda from './pages/PontosDeVenda';
 import App from './App'
+import Outros from './pages/Outros';
 
 const router = createBrowserRouter([
   {
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
         path: "/pontos-de-venda",
         element: <PontosDeVenda />,
       },
+      {
+        path: "/catalogo/outros",
+        element: <Outros />
+      }
     ]
   },
 ]);

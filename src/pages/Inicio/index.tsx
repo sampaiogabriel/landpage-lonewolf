@@ -1,5 +1,5 @@
 import Headline from '../../layout/Headline';
-import NossosProdutos from '../../layout/NossosProdutos';
+import NossosProdutosContainer from '../../layout/NossosProdutosContainer';
 import PontosVendas from '../../layout/PontosVendas';
 import Video from '../../layout/Video';
 
@@ -8,7 +8,7 @@ function Inicio() {
     <>
       <Headline />
       <Video />
-      <NossosProdutos />
+      <NossosProdutosContainer />
       <PontosVendas />
     </>
   )

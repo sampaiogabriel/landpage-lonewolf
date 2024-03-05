@@ -16,19 +16,6 @@ const Content = styled.div`
   gap: 32px;
 `;
 
-const Divider = styled.div`
-  max-width: 416px;
-  width: 100%;
-  height: 4px;
-  border-radius: 100px;
-  background: #bfbfbf;
-
-  @media screen and (max-width: 425px) {
-    width: 224px;
-    height: 2px;
-  }
-`;
-
 const Links = styled.div`
   display: flex;
   gap: 32px;
@@ -39,4 +26,4 @@ const Links = styled.div`
   padding: 2px;
 `;
 
-export default { Container, Content, Divider, Links };
+export default { Container, Content, Links };
