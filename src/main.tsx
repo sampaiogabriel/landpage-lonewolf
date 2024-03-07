@@ -12,7 +12,7 @@ import ErrorPage from './pages/ErrorPage';
 import PontosDeVenda from './pages/PontosDeVenda';
 import App from './App'
 import Outros from './pages/Outros';
-import Produto from './pages/Produto';
+import ProdutoPage from './pages/Produto';
 
 const router = createBrowserRouter([
   {
@@ -30,7 +30,7 @@ const router = createBrowserRouter([
       },
       {
         path: '/catalogo/:produto',
-        element: <Produto />,
+        element: <ProdutoPage />,
       },
       {
         path: "/catalogo/outros",

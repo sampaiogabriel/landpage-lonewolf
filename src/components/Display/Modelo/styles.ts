@@ -2,17 +2,17 @@ import styled from "styled-components";
 
 const Container = styled.div`
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 
-  text-align: center;
+  gap: 16px;
   color: #fcfcfc;
 `;
 
-const Header = styled.div`
+const Info = styled.div`
   display: flex;
   flex-direction: column;
-
-  max-width: 432px;
 `;
 
-export default { Container, Header };
+export default { Container, Info };

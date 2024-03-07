@@ -16,6 +16,7 @@ export type Cor = {
 export type Especificacao = {
   id: string;
   label: string;
+  info?: string;
 };
 
 export type Versao = {

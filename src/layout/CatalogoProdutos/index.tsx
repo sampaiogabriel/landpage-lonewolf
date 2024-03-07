@@ -27,7 +27,7 @@ const CatalogoProdutos: FC = () => {
         </S.Headline>
         <S.ContainerProdutos>
           {CATALOGO_CARDS.map(({ id, label, background, url }) =>
-            <Link key={id} to={url}>
+            <Link key={id} to={url} preventScrollReset={false}>
               <Card key={id} title={label} imageUrl={background} />
             </Link>
           )}

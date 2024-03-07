@@ -1,20 +1,37 @@
 import { useState } from "react";
 
 import Produtos from "../consts/produtos";
-import { Produto, ProdutoType } from "../types/Produto";
+import { Produto, ProdutoType, Versao } from "../types/Produto";
 
 const useProduto = () => {
-  const [produtos, setProdutos] = useState<Produto[]>(Produtos);
+  const [produtos] = useState<Produto[]>(Produtos);
 
-  const filtrarProdutos = (productType: ProdutoType) => {
-    const filtered = produtos.filter(
+  const filtrarProdutos = (productType: ProdutoType): Produto | undefined => {
+    const filtered = produtos.find(
       (product) => product.produto.toLowerCase() === productType.toLowerCase()
     );
 
     return filtered;
   };
 
-  return { produtos, filtrarProdutos };
+  const selecionarProduto = (
+    productType: ProdutoType,
+    nomeProduto: string
+  ): Versao | undefined => {
+    const produto = filtrarProdutos(productType);
+
+    if (produto) {
+      const versaoEncontrada = produto.versoes.find(
+        (versao) => versao.label.toLowerCase() === nomeProduto.toLowerCase()
+      );
+
+      return versaoEncontrada;
+    }
+
+    return undefined;
+  };
+
+  return { produtos, filtrarProdutos, selecionarProduto };
 };
 
 export default useProduto;

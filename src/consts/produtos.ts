@@ -461,12 +461,13 @@ const PRODUTOS: Produto[] = [
         especificacoes: [
           {
             id: "1",
-            label: "Memória RAM: 8GB / 16GB",
+            label: "Memória RAM: ",
+            info: "8GB / 16GB",
           },
           {
             id: "2",
-            label:
-              "13 Polegadas: Chip M1 da Apple com CPU de 8 núcleos, GPU de 7 núcleos, Neural Engine de 16 núcleos",
+            label: "13 Polegadas:",
+            info: "Chip M1 da Apple com CPU de 8 núcleos, GPU de 7 núcleos, Neural Engine de 16 núcleos",
           },
         ],
         modelos: [],
@@ -511,27 +512,28 @@ const PRODUTOS: Produto[] = [
         especificacoes: [
           {
             id: "1",
-            label: "Memória RAM: 8GB / 16GB / 24 GB",
+            label: "Memória RAM:",
+            info: "8GB / 16GB / 24 GB",
           },
           {
             id: "2",
-            label:
-              "13,6 Polegadas: Chip M2 da Apple com CPU de 8 núcleos, GPU de 8 núcleos e Neural Engine de 16 núcleos.",
+            label: "13,6 Polegadas:",
+            info: "Chip M2 da Apple com CPU de 8 núcleos, GPU de 8 núcleos e Neural Engine de 16 núcleos.",
           },
           {
             id: "3",
-            label:
-              "13,6 Polegadas: Chip M2 da Apple com CPU de 8 núcleos, GPU de 10 núcleos e Neural Engine de 16 núcleos.",
+            label: "13,6 Polegadas:",
+            info: "Chip M2 da Apple com CPU de 8 núcleos, GPU de 10 núcleos e Neural Engine de 16 núcleos.",
           },
           {
             id: "4",
-            label:
-              "15,3 Polegadas: Chip M2 da Apple com CPU de 8 núcleos, GPU de 8 núcleos e Neural Engine de 16 núcleos.",
+            label: "15,3 Polegadas:",
+            info: "Chip M2 da Apple com CPU de 8 núcleos, GPU de 8 núcleos e Neural Engine de 16 núcleos.",
           },
           {
             id: "5",
-            label:
-              "15,3 Polegadas: Chip M2 da Apple com CPU de 8 núcleos, GPU de 10 núcleos e Neural Engine de 16 núcleos.",
+            label: "15,3 Polegadas:",
+            info: "Chip M2 da Apple com CPU de 8 núcleos, GPU de 10 núcleos e Neural Engine de 16 núcleos.",
           },
         ],
         modelos: [],
@@ -580,12 +582,13 @@ const PRODUTOS: Produto[] = [
         especificacoes: [
           {
             id: "1",
-            label: "Memória RAM: 8GB / 16GB / 24 GB",
+            label: "Memória RAM:",
+            info: "8GB / 16GB / 24 GB",
           },
           {
             id: "2",
-            label:
-              "14 Polegadas: Chip M3 da Apple com CPU de 8 núcleos, GPU de 10 núcleos e Neural Engine de 16 núcleos.",
+            label: "14 Polegadas:",
+            info: "Chip M3 da Apple com CPU de 8 núcleos, GPU de 10 núcleos e Neural Engine de 16 núcleos.",
           },
         ],
         modelos: [],
@@ -622,23 +625,23 @@ const PRODUTOS: Produto[] = [
         especificacoes: [
           {
             id: "1",
-            label:
-              "14 Polegadas / Memória RAM: 36GB / 96GB: Chip M3 Max da Apple com CPU de 14 núcleos, GPU de 30 núcleos e Neural Engine de 16 núcleos.",
+            label: "14 Polegadas / Memória RAM: 36GB / 96GB:",
+            info: "Chip M3 Max da Apple com CPU de 14 núcleos, GPU de 30 núcleos e Neural Engine de 16 núcleos.",
           },
           {
             id: "2",
-            label:
-              "14 Polegadas / Memória RAM: 48GB / 64GB / 128GB: Chip M3 Max da Apple com CPU de 16 núcleos, GPU de 40 núcleos e Neural Engine de 16 núcleos.",
+            label: "14 Polegadas / Memória RAM: 48GB / 64GB / 128GB:",
+            info: "Chip M3 Max da Apple com CPU de 16 núcleos, GPU de 40 núcleos e Neural Engine de 16 núcleos.",
           },
           {
             id: "3",
-            label:
-              "16 Polegadas / Memória RAM: 36GB / 96GB: Chip M3 Max da Apple com CPU de 14 núcleos, GPU de 30 núcleos e Neural Engine de 16 núcleos.",
+            label: "16 Polegadas / Memória RAM: 36GB / 96GB:",
+            info: "Chip M3 Max da Apple com CPU de 14 núcleos, GPU de 30 núcleos e Neural Engine de 16 núcleos.",
           },
           {
             id: "4",
-            label:
-              "16 Polegadas / Memória RAM: 48GB / 64GB / 128GB: Chip M3 Max da Apple com CPU de 16 núcleos, GPU de 40 núcleos e Neural Engine de 16 núcleos.",
+            label: "16 Polegadas / Memória RAM: 48GB / 64GB / 128GB:",
+            info: "Chip M3 Max da Apple com CPU de 16 núcleos, GPU de 40 núcleos e Neural Engine de 16 núcleos.",
           },
         ],
         modelos: [],
@@ -679,23 +682,23 @@ const PRODUTOS: Produto[] = [
         especificacoes: [
           {
             id: "1",
-            label:
-              "14 Polegadas / Memória RAM: 36GB / 96GB: Chip M3 Max da Apple com CPU de 14 núcleos, GPU de 30 núcleos e Neural Engine de 16 núcleos.",
+            label: "14 Polegadas / Memória RAM: 36GB / 96GB:",
+            info: "Chip M3 Max da Apple com CPU de 14 núcleos, GPU de 30 núcleos e Neural Engine de 16 núcleos.",
           },
           {
             id: "2",
-            label:
-              "14 Polegadas / Memória RAM: 48GB / 64GB / 128GB: Chip M3 Max da Apple com CPU de 16 núcleos, GPU de 40 núcleos e Neural Engine de 16 núcleos.",
+            label: "14 Polegadas / Memória RAM: 48GB / 64GB / 128GB:",
+            info: " Chip M3 Max da Apple com CPU de 16 núcleos, GPU de 40 núcleos e Neural Engine de 16 núcleos.",
           },
           {
             id: "3",
-            label:
-              "16 Polegadas / Memória RAM: 36GB / 96GB: Chip M3 Max da Apple com CPU de 14 núcleos, GPU de 30 núcleos e Neural Engine de 16 núcleos.",
+            label: "16 Polegadas / Memória RAM: 36GB / 96GB:",
+            info: " Chip M3 Max da Apple com CPU de 14 núcleos, GPU de 30 núcleos e Neural Engine de 16 núcleos.",
           },
           {
             id: "4",
-            label:
-              "16 Polegadas / Memória RAM: 48GB / 64GB / 128GB: Chip M3 Max da Apple com CPU de 16 núcleos, GPU de 40 núcleos e Neural Engine de 16 núcleos.",
+            label: "16 Polegadas / Memória RAM: 48GB / 64GB / 128GB:",
+            info: " Chip M3 Max da Apple com CPU de 16 núcleos, GPU de 40 núcleos e Neural Engine de 16 núcleos.",
           },
         ],
         modelos: [],
@@ -728,15 +731,18 @@ const PRODUTOS: Produto[] = [
         especificacoes: [
           {
             id: "1",
-            label: "Pulseiras: Esportiva / Loop Esportiva",
+            label: "Pulseiras:",
+            info: "Esportiva / Loop Esportiva",
           },
           {
             id: "2",
-            label: "Tamanhos: 40mm / 44mm",
+            label: "Tamanhos:",
+            info: "40mm / 44mm",
           },
           {
             id: "3",
-            label: "Modelos: GPS / GPS+CELLULAR",
+            label: "Modelos:",
+            info: "GPS / GPS+CELLULAR",
           },
         ],
         cores: [
@@ -764,16 +770,18 @@ const PRODUTOS: Produto[] = [
         especificacoes: [
           {
             id: "1",
-            label: "Pulseiras: Esportiva / Loop Esportiva",
+            label: "Pulseiras:",
+            info: "Esportiva / Loop Esportiva",
           },
           {
             id: "2",
-            label: "Tamanhos: 41mm / 45mm",
+            label: "Tamanhos:",
+            info: "41mm / 45mm",
           },
           {
             id: "3",
-            label:
-              "Modelos: GPS Alumínio / GPS+CELLULAR Alumínio / GPS+CELULAR Aço Inoxidável",
+            label: "Modelos:",
+            info: " GPS Alumínio / GPS+CELLULAR Alumínio / GPS+CELULAR Aço Inoxidável",
           },
         ],
         cores: [
@@ -809,15 +817,18 @@ const PRODUTOS: Produto[] = [
         especificacoes: [
           {
             id: "1",
-            label: "Pulseiras: Loop Alpina / Loop Trail / Oceano",
+            label: "Pulseiras:",
+            info: "Loop Alpina / Loop Trail / Oceano",
           },
           {
             id: "2",
-            label: "Tamanhos: 49mm ",
+            label: "Tamanho:",
+            info: "49mm",
           },
           {
             id: "3",
-            label: "Modelo: GPS+CELLULAR",
+            label: "Modelo:",
+            info: " GPS+CELLULAR",
           },
         ],
         cores: [

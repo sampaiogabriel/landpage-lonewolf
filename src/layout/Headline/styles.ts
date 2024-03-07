@@ -65,7 +65,7 @@ const FraseDestaqueContainer = styled.div`
   }
 
   @media screen and (max-width: 425px) {
-    max-width: 196px;
+    max-width: 232px;
 
     h1 {
       font-size: 24px;

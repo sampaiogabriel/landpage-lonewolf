@@ -1,10 +1,13 @@
 import { FC } from "react";
 import { useParams } from "react-router-dom";
+import ProdutoCatalogo from "../../layout/ProdutoCatalogo";
+import { ProdutoType } from "../../types/Produto";
 
-const Produto: FC = () => {
+const ProdutoPage: FC = () => {
   const { produto } = useParams();
+  const params = produto as ProdutoType;
 
-  return <>{produto}</>
+  return <ProdutoCatalogo produtoSelecionado={params} />
 }
 
-export default Produto;
+export default ProdutoPage;
