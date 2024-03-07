@@ -31,10 +31,10 @@ const Video: FC = () => {
         </S.Video>
         <S.Headline>
           <h5 className="h5 regular">
-            Frase curta de efeito
+            Conheça nossa loja
           </h5>
           <h2 className="h2">
-            Frase de efeito para mostrar o video
+            <span className="primary">Lone Wolf</span>, onde a inovação encontra seu verdadeiro estilo!
           </h2>
         </S.Headline>
       </S.Content>

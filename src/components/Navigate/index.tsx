@@ -13,6 +13,7 @@ const Navigate: FC = () => {
       <MenuMobile menuIsVisible={menuIsVisible} setMenuIsVisible={setMenuIsVisible} />
       <S.Nav>
         <RiMenu2Fill onClick={() => setMenuIsVisible(true)} className="menu-mobile" size={36} />
+        <Link className="link large regular" to="/">Início</Link>
         <Link className="link large regular" to="/pontos-de-venda">Pontos de Venda</Link>
         <Link className="link large regular" to="/catalogo">Catálogo</Link>
       </S.Nav>

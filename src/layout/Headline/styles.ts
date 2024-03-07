@@ -36,7 +36,7 @@ const FraseDestaqueContainer = styled.div`
   align-items: flex-start;
   justify-content: flex-start;
   gap: 23px;
-  max-width: 432px;
+  max-width: 500px;
 
   img {
     max-width: 278px;
@@ -52,10 +52,6 @@ const FraseDestaqueContainer = styled.div`
 
   .primary {
     color: #6d2ac0;
-  }
-
-  .destaque {
-    display: inline-block;
   }
 
   @media screen and (max-width: 768px) {

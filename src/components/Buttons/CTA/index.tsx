@@ -4,16 +4,15 @@ import S from './styles'
 
 interface CTAProps {
   id: string
-  onClick?: (event: MouseEvent) => void;
+  onClick?: () => void;
   className?: string;
   children: string;
   style?: CSSProperties;
-  href?: string;
 }
 
-export const CTA: FC<CTAProps> = ({ id, children, style, className }) => {
+export const CTA: FC<CTAProps> = ({ id, children, style, className, onClick }) => {
   return (
-    <S.Container id={id} style={style} className={className}>
+    <S.Container id={id} style={style} className={className} onClick={onClick}>
       <span>{children}</span>
     </S.Container>
   )

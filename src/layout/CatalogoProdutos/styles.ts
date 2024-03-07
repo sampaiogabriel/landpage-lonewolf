@@ -23,7 +23,6 @@ const Headline = styled.div`
   justify-content: center;
 
   gap: 36px;
-  max-width: 432px;
   width: 100%;
 
   text-align: center;
@@ -35,6 +34,7 @@ const Headline = styled.div`
   h5 {
     color: #bfbfbf;
     padding: 0px 8px;
+    max-width: 432px;
   }
 `;
 

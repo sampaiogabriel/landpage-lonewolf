@@ -24,6 +24,7 @@ const MenuMobile: FC<MenuMobileProps> = ({ menuIsVisible, setMenuIsVisible }) =>
     <S.Container isVisible={menuIsVisible}>
       <IoClose size={45} onClick={fecharMenu} />
       <nav>
+        <Link to="/" className="link large regular" onClick={fecharMenu}>Início</Link>
         <Link to="/pontos-de-venda" className="link large regular" onClick={fecharMenu}>Pontos de Venda</Link>
         <Link to="/catalogo" className="link large regular" onClick={fecharMenu}>Catálogo</Link>
       </nav>

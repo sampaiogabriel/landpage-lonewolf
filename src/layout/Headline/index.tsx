@@ -1,5 +1,6 @@
 import { FC, useEffect } from "react";
-import ScrollReveal from 'scrollreveal'
+import ScrollReveal from 'scrollreveal';
+import { useNavigate } from "react-router-dom";
 
 import S from './styles';
 
@@ -8,9 +9,16 @@ import LogoHeadline from '../../assets/logo_header.png'
 import { CTA } from "../../components/Buttons/CTA";
 
 const Headline: FC = () => {
+  const navigate = useNavigate();
+
   useEffect(() => {
     ScrollReveal({ reset: true }).reveal('.content', { duration: 1000 });
   }, []);
+
+
+  const onClickCTA = () => {
+    return navigate('/catalogo');
+  }
 
   return (
     <S.Container>
@@ -19,17 +27,17 @@ const Headline: FC = () => {
           <img src={LogoHeadline} alt="Logo Principal Lonewolf" />
           <div className="destaque">
             <h1 className="h1">
-              Uma boa frase para
-              <span className="primary"> Landing Page.</span></h1>
+              Comprometidos com a <span className="primary">qualidade</span>, guiados pelo <span className="primary">estilo</span>.
+            </h1>
           </div>
           <h5 className="h5 regular">
-            Frase de Destaque para chamar a atenção para os produtos do Site. Pode ter entre duas a três linhas, sintetizando a proposta
+            A inovação está no coração da Lone Wolf. Ao oferecer produtos Apple importados, trazemos para você as últimas tendências tecnológicas que definem o futuro.
           </h5>
-          <CTA id="cta-compre-agora" className="ctn-compre-agora" href="#pontos-de-venda">Compre Agora</CTA>
+          <CTA id="cta-compre-agora" className="ctn-compre-agora" onClick={onClickCTA}>Compre Agora</CTA>
         </S.FraseDestaqueContainer>
         <S.ImagemContainer>
           <img src={ImagemPrincipal} alt="Iphone 15 Banner" />
-          <CTA id="cta-compre-agora" className="ctn-compre-agora" href="#pontos-de-venda">Compre Agora</CTA>
+          <CTA id="cta-compre-agora" className="ctn-compre-agora" onClick={onClickCTA}>Compre Agora</CTA>
         </S.ImagemContainer>
       </S.Content>
     </S.Container>

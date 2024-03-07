@@ -24,6 +24,10 @@ const Content = styled.div`
 
   // Animação Scroll Reveal
   visibility: hidden;
+
+  .primary {
+    color: #6d2ac0;
+  }
 `;
 
 const Video = styled.div`
