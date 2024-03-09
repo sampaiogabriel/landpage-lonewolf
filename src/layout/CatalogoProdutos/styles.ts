@@ -12,9 +12,6 @@ const Content = styled.div`
   gap: 16px;
   padding: 64px 0px;
 
-  // Animação Scroll Reveal
-  visibility: hidden;
-
   @media screen and (max-width: 768px) {
     padding: 32px 0px;
   }

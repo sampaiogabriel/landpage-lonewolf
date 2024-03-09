@@ -15,7 +15,7 @@ const CatalogoProdutos: FC = () => {
 
   return (
     <S.Container>
-      <S.Content className="max-width catalogo">
+      <S.Content className="max-width">
         <img src={LogoCatalogo} alt="Logo Catálogo" />
         <S.Headline>
           <h1 className="h1">
