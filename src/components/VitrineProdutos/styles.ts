@@ -3,7 +3,7 @@ import styled from "styled-components";
 const Container = styled.div`
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
 
   padding: 4px;
@@ -22,11 +22,11 @@ const ContainerTitle = styled.div`
 `;
 
 const ContainerImg = styled.div`
-  padding: 32px;
+  padding: 64px 32px;
 
   img {
-    width: 100%;
     max-width: 400px;
+    width: 100%;
   }
 `;
 

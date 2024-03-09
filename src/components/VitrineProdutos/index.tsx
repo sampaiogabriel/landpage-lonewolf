@@ -17,7 +17,7 @@ const VitrineProdutos: FC<VitrineProdutosProps> = ({ produto }) => {
   return (
     <S.Container>
       <S.ContainerImg>
-        <img src={produto?.src} />
+        <img src={produto?.src} alt={`${produto?.label}`} />
       </S.ContainerImg>
       <S.ContainerInfo>
         <S.ContainerTitle>
@@ -33,8 +33,8 @@ const VitrineProdutos: FC<VitrineProdutosProps> = ({ produto }) => {
         <S.ContainerWhatsapp>
           <WhatsappButton />
         </S.ContainerWhatsapp>
-      </S.ContainerInfo>
-    </S.Container>
+      </S.ContainerInfo >
+    </S.Container >
   )
 }
 
