@@ -14,6 +14,14 @@ const Content = styled.div`
 
   // Animação Scroll Reveal
   visibility: hidden;
+
+  @media screen and (max-width: 768px) {
+    padding: 32px 0px;
+  }
+
+  @media screen and (max-width: 425px) {
+    padding: 8px 0px;
+  }
 `;
 
 const Headline = styled.div`

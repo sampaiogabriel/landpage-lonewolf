@@ -15,6 +15,8 @@ import APPLE_WATCH_SE_2 from "../assets/produtos/APPLE_WATCH_SE_2.png";
 import APPLE_WATCH_S9 from "../assets/produtos/APPLE_WATCH_S9.png";
 import APPLE_WATCH_ULTRA_2 from "../assets/produtos/APPLE_WATCH_ULTRA_2.png";
 import MAC_STUDIO from "../assets/produtos/MAC_STUDIO.png";
+import AIRPODS from "../assets/produtos/AIRPODS.png";
+
 import { Produto } from "../types/Produto";
 
 const PRODUTOS: Produto[] = [
@@ -718,8 +720,8 @@ const PRODUTOS: Produto[] = [
   },
   {
     id: "4",
-    produto: "applewatch",
-    label: "Apple Watch",
+    produto: "acessorios",
+    label: "Acessórios",
     versoes: [
       {
         id: "1",
@@ -835,6 +837,54 @@ const PRODUTOS: Produto[] = [
           {
             id: "1",
             label: "Titânio",
+          },
+        ],
+      },
+      {
+        id: "4",
+        label: "AirPods",
+        src: AIRPODS,
+        ativo: true,
+        modelos: [
+          {
+            id: "1",
+            label: "AirPods 2",
+          },
+          {
+            id: "2",
+            label: "AirPods 3",
+          },
+          {
+            id: "3",
+            label: "AirPods Pro 2",
+          },
+          {
+            id: "4",
+            label: "AirPods Max",
+          },
+        ],
+        armazenamento: [],
+        especificacoes: [],
+        cores: [
+          {
+            id: "1",
+            label: "Branco (AirPods 2 / AirPods 3 / AirPods Prop 2)",
+          },
+          {
+            id: "2",
+            label: "Cinza Espacial",
+          },
+          {
+            id: "3",
+            label: "Rosa",
+          },
+          {
+            id: "4",
+            label: "Verde",
+          },
+          {
+            id: "5",
+            label: "Azul Céu",
           },
         ],
       },

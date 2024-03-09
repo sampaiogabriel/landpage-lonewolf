@@ -12,4 +12,9 @@ const Container = styled.div`
 
 const Info = styled.div``;
 
-export default { Container, Info };
+const CoresContainer = styled.div`
+  max-width: 300px;
+  width: 100%;
+`;
+
+export default { Container, Info, CoresContainer };

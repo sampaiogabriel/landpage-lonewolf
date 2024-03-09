@@ -3,14 +3,25 @@ import styled from "styled-components";
 const Container = styled.div`
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
 
-  gap: 96px;
   padding: 4px;
+
+  flex-wrap: wrap;
+`;
+
+const ContainerTitle = styled.div`
+  width: 100%;
+
+  @media screen and (max-width: 768px) {
+    text-align: center;
+  }
 `;
 
 const ContainerImg = styled.div`
+  padding: 32px;
+
   img {
     width: 100%;
     max-width: 400px;
@@ -40,4 +51,10 @@ const ContainerWhatsapp = styled.div`
   justify-content: center;
 `;
 
-export default { Container, ContainerImg, ContainerInfo, ContainerWhatsapp };
+export default {
+  Container,
+  ContainerTitle,
+  ContainerImg,
+  ContainerInfo,
+  ContainerWhatsapp,
+};

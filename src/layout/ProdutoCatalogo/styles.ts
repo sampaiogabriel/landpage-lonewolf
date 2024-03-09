@@ -37,7 +37,7 @@ const Header = styled.div`
 const ContainerVitrine = styled.div``;
 
 const ContainerButton = styled.div`
-  padding: 64px;
+  padding: 64px 0px;
 `;
 
 export default {

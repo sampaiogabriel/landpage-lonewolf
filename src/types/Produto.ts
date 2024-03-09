@@ -37,4 +37,4 @@ export type Produto = {
   versoes: Versao[];
 };
 
-export type ProdutoType = "iphone" | "ipad" | "macbook" | "applewatch";
+export type ProdutoType = "iphone" | "ipad" | "macbook" | "acessorios";

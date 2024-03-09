@@ -20,14 +20,16 @@ const VitrineProdutos: FC<VitrineProdutosProps> = ({ produto }) => {
         <img src={produto?.src} />
       </S.ContainerImg>
       <S.ContainerInfo>
-        <h2 className="h2">
-          {produto?.label}
-        </h2>
+        <S.ContainerTitle>
+          <h2 className="h2">
+            {produto?.label}
+          </h2>
+        </S.ContainerTitle>
         <Cores cores={produto?.cores} />
         <Armazenamento armazenamentos={produto?.armazenamento} />
         <Modelo modelos={produto?.modelos} />
         <Especificacoes especificacoes={produto?.especificacoes} />
-        <CTA id="cta-compra-agora">Compra Agora</CTA>
+        <CTA id="cta-compra-agora" style={{ width: '100%' }}>Compra Agora</CTA>
         <S.ContainerWhatsapp>
           <WhatsappButton />
         </S.ContainerWhatsapp>
