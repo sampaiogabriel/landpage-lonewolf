@@ -55,7 +55,7 @@ const ProdutoCatalogo: FC<ProdutoProps> = ({ produtoSelecionado }) => {
           <VitrineProdutos produto={versao} />
         </S.ContainerVitrine>
         <S.ContainerButton>
-          <ButtonSecondary id="voltar-para-catalogo" onClick={handleClickVoltarCatalogo}>
+          <ButtonSecondary id="voltar-para-catalogo" onClick={handleClickVoltarCatalogo} style={{ padding: '0x !important' }}>
             <InfoCircleOutlined /> Voltar para Catálogo
           </ButtonSecondary>
         </S.ContainerButton>

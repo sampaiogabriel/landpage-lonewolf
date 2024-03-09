@@ -12,7 +12,7 @@ const SelecaoProduto: FC<SelecaoProdutoProps> = ({ versoes, onSelecionarProduto 
   return (
     <S.Container>
       {versoes?.map(versao => (
-        <S.Produto onClick={() => onSelecionarProduto(versao.label)}>
+        <S.Produto key={versao.id} onClick={() => onSelecionarProduto(versao.label)}>
           <img src={versao.src} />
           <small className="small">
             {versao.label}

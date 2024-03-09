@@ -11,8 +11,12 @@ const Container = styled.div`
 
   padding: 32px;
 
+  flex-wrap: wrap;
+
   @media screen and (max-width: 425px) {
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
   }
 `;
 

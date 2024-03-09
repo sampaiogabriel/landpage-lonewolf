@@ -13,9 +13,11 @@ const Container = styled.div`
 
 const ContainerTitle = styled.div`
   width: 100%;
+  min-width: 400px;
 
   @media screen and (max-width: 768px) {
     text-align: center;
+    min-width: auto;
   }
 `;
 
