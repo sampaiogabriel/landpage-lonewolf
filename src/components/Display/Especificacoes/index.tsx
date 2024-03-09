@@ -15,15 +15,15 @@ const Especificacoes: FC<EspecificacoesProps> = ({ especificacoes }) => {
 
   return (
     <S.Container>
-      <Icon icon='modelo' />
+      <Icon icon='especificacao' />
       <S.Info>
         <h5 className="h5 semibold">
           Especificações
         </h5>
         <S.EspecificacoesInfo>
           {especificacoes.map((especificacao) => (
-            <S.EspecificacaoInfo key={especificacao.id}>
-              <span key={especificacao.id} className="medium semibold">
+            <S.EspecificacaoInfo key={especificacao.id} style={{ marginBottom: '4px' }}>
+              <span key={especificacao.id} className="medium semibold" style={{ marginRight: '4px' }}>
                 {especificacao.label}
               </span>
               <span key={especificacao.id} className="medium">

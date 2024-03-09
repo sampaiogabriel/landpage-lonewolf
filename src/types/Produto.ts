@@ -1,16 +1,19 @@
 export type Modelo = {
   id: string;
-  label: string;
+  label?: string;
+  info?: string;
 };
 
 export type Armazenamento = {
   id: string;
-  label: string;
+  label?: string;
+  info?: string;
 };
 
 export type Cor = {
   id: string;
-  label: string;
+  label?: string;
+  info?: string;
 };
 
 export type Especificacao = {

@@ -16,6 +16,8 @@ import APPLE_WATCH_S9 from "../assets/produtos/APPLE_WATCH_S9.png";
 import APPLE_WATCH_ULTRA_2 from "../assets/produtos/APPLE_WATCH_ULTRA_2.png";
 import MAC_STUDIO from "../assets/produtos/MAC_STUDIO.png";
 import AIRPODS from "../assets/produtos/AIRPODS.png";
+import MINIM2 from "../assets/produtos/MINI.png";
+import IMAC from "../assets/produtos/iMAC.png";
 
 import { Produto } from "../types/Produto";
 
@@ -33,43 +35,19 @@ const PRODUTOS: Produto[] = [
         modelos: [
           {
             id: "1",
-            label: "iPhone 13",
+            info: "iPhone 13",
           },
         ],
         armazenamento: [
           {
             id: "1",
-            label: "128 GB",
-          },
-          {
-            id: "2",
-            label: "256 GB",
+            info: "128 GB / 256 GB",
           },
         ],
         cores: [
           {
             id: "1",
-            label: "Estelar",
-          },
-          {
-            id: "2",
-            label: "Meia Noite",
-          },
-          {
-            id: "3",
-            label: "Azul",
-          },
-          {
-            id: "4",
-            label: "Roxo",
-          },
-          {
-            id: "5",
-            label: "Amarelo",
-          },
-          {
-            id: "6",
-            label: "Vermelho",
+            info: "Estelar / Meia Noite / Azul / Roxo / Amarelo / Vermelho",
           },
         ],
       },
@@ -81,47 +59,23 @@ const PRODUTOS: Produto[] = [
         modelos: [
           {
             id: "1",
-            label: "iPhone 14",
+            info: "iPhone 14",
           },
           {
             id: "2",
-            label: "iPhone 14 Plus",
+            info: "iPhone 14 Plus",
           },
         ],
         armazenamento: [
           {
             id: "1",
-            label: "128 GB",
-          },
-          {
-            id: "2",
-            label: "256 GB",
+            info: "128 GB / 256 GB",
           },
         ],
         cores: [
           {
             id: "1",
-            label: "Estelar",
-          },
-          {
-            id: "2",
-            label: "Meia Noite",
-          },
-          {
-            id: "3",
-            label: "Azul",
-          },
-          {
-            id: "4",
-            label: "Roxo",
-          },
-          {
-            id: "5",
-            label: "Amarelo",
-          },
-          {
-            id: "6",
-            label: "Vermelho",
+            info: "Estelar / Meia Noite / Azul / Roxo / Amarelo / Vermelho",
           },
         ],
       },
@@ -133,47 +87,23 @@ const PRODUTOS: Produto[] = [
         modelos: [
           {
             id: "1",
-            label: "iPhone 15",
+            info: "iPhone 15",
           },
           {
             id: "2",
-            label: "iPhone 15 Plus",
+            info: "iPhone 15 Plus",
           },
         ],
         armazenamento: [
           {
             id: "1",
-            label: "128 GB",
-          },
-          {
-            id: "2",
-            label: "256 GB",
-          },
-          {
-            id: "3",
-            label: "512 GB",
+            info: "128 GB / 256 GB / 512 GB",
           },
         ],
         cores: [
           {
             id: "1",
-            label: "Preto",
-          },
-          {
-            id: "2",
-            label: "Azul",
-          },
-          {
-            id: "3",
-            label: "Rosa",
-          },
-          {
-            id: "4",
-            label: "Amarelo",
-          },
-          {
-            id: "5",
-            label: "Verde",
+            info: "Preto / Azul / Rosa / Amarelo / Verde",
           },
         ],
       },
@@ -185,47 +115,23 @@ const PRODUTOS: Produto[] = [
         modelos: [
           {
             id: "1",
-            label: "iPhone 15 Pro",
+            info: "iPhone 15 Pro",
           },
           {
             id: "2",
-            label: "iPhone 15 Pro Max",
+            info: "iPhone 15 Pro Max",
           },
         ],
         armazenamento: [
           {
             id: "1",
-            label: "128 GB",
-          },
-          {
-            id: "2",
-            label: "256 GB",
-          },
-          {
-            id: "3",
-            label: "512 GB",
-          },
-          {
-            id: "4",
-            label: "1 TB",
+            info: "128 GB / 256 GB / 512 GB / 1 TB",
           },
         ],
         cores: [
           {
             id: "1",
-            label: "Titânio Preto",
-          },
-          {
-            id: "2",
-            label: "Titânio Branco",
-          },
-          {
-            id: "3",
-            label: "Titânio Natural",
-          },
-          {
-            id: "4",
-            label: "Titânio Azul",
+            info: "Titânio Preto / Titânio Branco / Titânio Natural / Titânio Azul",
           },
         ],
       },
@@ -244,31 +150,23 @@ const PRODUTOS: Produto[] = [
         modelos: [
           {
             id: "1",
-            label: "WIFI",
+            info: "WIFI",
           },
           {
             id: "2",
-            label: "WIFI+CELLULAR",
+            info: "WIFI+CELLULAR",
           },
         ],
         armazenamento: [
           {
             id: "1",
-            label: "64 GB",
-          },
-          {
-            id: "2",
-            label: "256 GB",
+            info: "64 GB / 256 GB",
           },
         ],
         cores: [
           {
             id: "1",
-            label: "Cinza Espacial",
-          },
-          {
-            id: "2",
-            label: "Prateado",
+            info: "Cinza Espacial / Prateado",
           },
         ],
       },
@@ -280,39 +178,23 @@ const PRODUTOS: Produto[] = [
         modelos: [
           {
             id: "1",
-            label: "WIFI",
+            info: "WIFI",
           },
           {
             id: "2",
-            label: "WIFI+CELLULAR",
+            info: "WIFI+CELLULAR",
           },
         ],
         armazenamento: [
           {
             id: "1",
-            label: "64 GB",
-          },
-          {
-            id: "2",
-            label: "256 GB",
+            info: "64 GB / 256 GB",
           },
         ],
         cores: [
           {
             id: "1",
-            label: "Azul",
-          },
-          {
-            id: "2",
-            label: "Rosa",
-          },
-          {
-            id: "3",
-            label: "Amarelo",
-          },
-          {
-            id: "4",
-            label: "Prateado",
+            info: "Azul / Rosa / Amarelo / Prateado",
           },
         ],
       },
@@ -324,39 +206,23 @@ const PRODUTOS: Produto[] = [
         modelos: [
           {
             id: "1",
-            label: "Mini 6 WIFI",
+            info: "Mini 6 WIFI",
           },
           {
             id: "2",
-            label: "Mini 6 WIFI+CELLULAR",
+            info: "Mini 6 WIFI+CELLULAR",
           },
         ],
         armazenamento: [
           {
             id: "1",
-            label: "64 GB",
-          },
-          {
-            id: "2",
-            label: "256 GB",
+            info: "64 GB / 256 GB",
           },
         ],
         cores: [
           {
             id: "1",
-            label: "Cinza Espacial",
-          },
-          {
-            id: "2",
-            label: "Rosa",
-          },
-          {
-            id: "3",
-            label: "Roxo",
-          },
-          {
-            id: "4",
-            label: "Estelar",
+            info: "Cinza Espacial / Rosa / Roxo / Estelar",
           },
         ],
       },
@@ -368,39 +234,23 @@ const PRODUTOS: Produto[] = [
         modelos: [
           {
             id: "1",
-            label: "Air 5 WIFI",
+            info: "Air 5 WIFI",
           },
           {
             id: "2",
-            label: "Air 5 WIFI+CELLULAR",
+            info: "Air 5 WIFI+CELLULAR",
           },
         ],
         armazenamento: [
           {
             id: "1",
-            label: "64 GB",
-          },
-          {
-            id: "2",
-            label: "256 GB",
+            info: "64 GB / 256 GB",
           },
         ],
         cores: [
           {
             id: "1",
-            label: "Cinza Espacial",
-          },
-          {
-            id: "2",
-            label: "Rosa",
-          },
-          {
-            id: "3",
-            label: "Roxo",
-          },
-          {
-            id: "4",
-            label: "Estelar",
+            info: "Cinza Espacial / Rosa / Roxo / Estelar",
           },
         ],
       },
@@ -412,39 +262,25 @@ const PRODUTOS: Produto[] = [
         modelos: [
           {
             id: "1",
-            label: "Pro 11 (4ª Geração): WIFI, WIFI+CELLULAR",
+            label: "Pro 11 (4ª Geração):",
+            info: "WIFI, WIFI+CELLULAR",
           },
           {
             id: "2",
-            label: "Pro 12.9 (6ª Geração): WIFI, WIFI+CELLULAR",
+            label: "Pro 12.9 (6ª Geração):",
+            info: " WIFI, WIFI+CELLULAR",
           },
         ],
         armazenamento: [
           {
             id: "1",
-            label: "64 GB",
-          },
-          {
-            id: "2",
-            label: "256 GB",
-          },
-          {
-            id: "3",
-            label: "512 GB",
-          },
-          {
-            id: "4",
-            label: "1 TB",
+            info: "64 GB / 256 GB / 512 GB / 1 TB",
           },
         ],
         cores: [
           {
             id: "1",
-            label: "Cinza Espacial",
-          },
-          {
-            id: "2",
-            label: "Prateado",
+            info: "Cinza Espacial / Prateado",
           },
         ],
       },
@@ -463,46 +299,27 @@ const PRODUTOS: Produto[] = [
         especificacoes: [
           {
             id: "1",
-            label: "Memória RAM: ",
-            info: "8GB / 16GB",
+            label: "Memória RAM:",
+            info: "8 GB / 16 GB",
           },
+        ],
+        modelos: [
           {
-            id: "2",
+            id: "1",
             label: "13 Polegadas:",
             info: "Chip M1 da Apple com CPU de 8 núcleos, GPU de 7 núcleos, Neural Engine de 16 núcleos",
           },
         ],
-        modelos: [],
         armazenamento: [
           {
             id: "1",
-            label: "256 GB",
-          },
-          {
-            id: "2",
-            label: "512 GB",
-          },
-          {
-            id: "3",
-            label: "1 TB",
-          },
-          {
-            id: "4",
-            label: "2 TB",
+            info: "256 GB / 512 GB / 1 TB / 2 TB",
           },
         ],
         cores: [
           {
             id: "1",
-            label: "Cinza Especial",
-          },
-          {
-            id: "2",
-            label: "Dourado",
-          },
-          {
-            id: "3",
-            label: "Prata",
+            info: "Cinza Especial / Dourado / Prata",
           },
         ],
       },
@@ -515,64 +332,41 @@ const PRODUTOS: Produto[] = [
           {
             id: "1",
             label: "Memória RAM:",
-            info: "8GB / 16GB / 24 GB",
+            info: "8 GB / 16 GB / 24 GB",
+          },
+        ],
+        modelos: [
+          {
+            id: "1",
+            label: "13,6 Polegadas:",
+            info: "Chip M2 da Apple com CPU de 8 núcleos, GPU de 8 núcleos e Neural Engine de 16 núcleos.",
           },
           {
             id: "2",
             label: "13,6 Polegadas:",
-            info: "Chip M2 da Apple com CPU de 8 núcleos, GPU de 8 núcleos e Neural Engine de 16 núcleos.",
-          },
-          {
-            id: "3",
-            label: "13,6 Polegadas:",
             info: "Chip M2 da Apple com CPU de 8 núcleos, GPU de 10 núcleos e Neural Engine de 16 núcleos.",
           },
           {
-            id: "4",
+            id: "3",
             label: "15,3 Polegadas:",
             info: "Chip M2 da Apple com CPU de 8 núcleos, GPU de 8 núcleos e Neural Engine de 16 núcleos.",
           },
           {
-            id: "5",
+            id: "4",
             label: "15,3 Polegadas:",
             info: "Chip M2 da Apple com CPU de 8 núcleos, GPU de 10 núcleos e Neural Engine de 16 núcleos.",
           },
         ],
-        modelos: [],
         armazenamento: [
           {
             id: "1",
-            label: "256 GB",
-          },
-          {
-            id: "2",
-            label: "512 GB",
-          },
-          {
-            id: "3",
-            label: "1 TB",
-          },
-          {
-            id: "4",
-            label: "2 TB",
+            info: "256 GB / 512 GB / 1 TB / 2 TB",
           },
         ],
         cores: [
           {
             id: "1",
-            label: "Meia Noite",
-          },
-          {
-            id: "2",
-            label: "Estelar",
-          },
-          {
-            id: "3",
-            label: "Cinza Espacial",
-          },
-          {
-            id: "3",
-            label: "Prateado",
+            info: "Meia Noite / Estelar / Cinza Espacial / Prateado",
           },
         ],
       },
@@ -585,37 +379,26 @@ const PRODUTOS: Produto[] = [
           {
             id: "1",
             label: "Memória RAM:",
-            info: "8GB / 16GB / 24 GB",
+            info: "8 GB / 16 GB / 24 GB",
           },
+        ],
+        modelos: [
           {
-            id: "2",
+            id: "1",
             label: "14 Polegadas:",
             info: "Chip M3 da Apple com CPU de 8 núcleos, GPU de 10 núcleos e Neural Engine de 16 núcleos.",
           },
         ],
-        modelos: [],
         armazenamento: [
           {
             id: "1",
-            label: "512 GB",
-          },
-          {
-            id: "2",
-            label: "1 TB",
-          },
-          {
-            id: "3",
-            label: "2 TB",
+            info: "512 GB / 1 TB / 2 TB",
           },
         ],
         cores: [
           {
             id: "1",
-            label: "Cinza Espacial",
-          },
-          {
-            id: "2",
-            label: "Prateado",
+            info: "Cinza Espacial / Prateado",
           },
         ],
       },
@@ -624,55 +407,39 @@ const PRODUTOS: Produto[] = [
         label: "MacBook Pro M3 Max",
         src: MACBOOK_PRO_M3_MAX,
         ativo: true,
-        especificacoes: [
+        especificacoes: [],
+        modelos: [
           {
             id: "1",
-            label: "14 Polegadas / Memória RAM: 36GB / 96GB:",
+            label: "14 Polegadas | Memória RAM: 36 GB / 96 GB:",
             info: "Chip M3 Max da Apple com CPU de 14 núcleos, GPU de 30 núcleos e Neural Engine de 16 núcleos.",
           },
           {
             id: "2",
-            label: "14 Polegadas / Memória RAM: 48GB / 64GB / 128GB:",
+            label: "14 Polegadas | Memória RAM: 48 GB / 64 GB / 128 GB:",
             info: "Chip M3 Max da Apple com CPU de 16 núcleos, GPU de 40 núcleos e Neural Engine de 16 núcleos.",
           },
           {
             id: "3",
-            label: "16 Polegadas / Memória RAM: 36GB / 96GB:",
+            label: "16 Polegadas | Memória RAM: 36 GB / 96 GB:",
             info: "Chip M3 Max da Apple com CPU de 14 núcleos, GPU de 30 núcleos e Neural Engine de 16 núcleos.",
           },
           {
             id: "4",
-            label: "16 Polegadas / Memória RAM: 48GB / 64GB / 128GB:",
+            label: "16 Polegadas | Memória RAM: 48 GB / 64 GB / 128 GB:",
             info: "Chip M3 Max da Apple com CPU de 16 núcleos, GPU de 40 núcleos e Neural Engine de 16 núcleos.",
           },
         ],
-        modelos: [],
         armazenamento: [
           {
             id: "1",
-            label: "512 GB",
-          },
-          {
-            id: "2",
-            label: "1 TB",
-          },
-          {
-            id: "3",
-            label: "2 TB",
-          },
-          {
-            id: "4",
-            label: "4 TB",
+            info: "512 GB / 1 TB / 2 TB / 4 TB",
           },
         ],
         cores: [
           {
             id: "1",
-            label: "Preto Espacial",
-          },
-          {
-            id: "2",
-            label: "Prateado",
+            info: "Preto Espacial / Prateado",
           },
         ],
       },
@@ -681,38 +448,145 @@ const PRODUTOS: Produto[] = [
         label: "Mac Studio",
         src: MAC_STUDIO,
         ativo: true,
-        especificacoes: [
+        especificacoes: [],
+        modelos: [
           {
             id: "1",
-            label: "14 Polegadas / Memória RAM: 36GB / 96GB:",
-            info: "Chip M3 Max da Apple com CPU de 14 núcleos, GPU de 30 núcleos e Neural Engine de 16 núcleos.",
+            label: "Studio M2 Max - Versão 1:",
+            info: "Memória RAM: 32 GB / 64 GB | Armazenamento: 512 GB / 1TB / 2TB / 4TB / 8TB | Chip M2 Max da Apple com CPU de 12 núcleos, GPU de 30 núcleos e Neural Engine de 16 núcleos.",
           },
           {
             id: "2",
-            label: "14 Polegadas / Memória RAM: 48GB / 64GB / 128GB:",
-            info: " Chip M3 Max da Apple com CPU de 16 núcleos, GPU de 40 núcleos e Neural Engine de 16 núcleos.",
+            label: "Studio M2 Max - Versão 2:",
+            info: "Memória RAM: 32 GB / 64 GB / 96 GB | Chip M2 Max da Apple com CPU de 12 núcleos, GPU de 38 núcleos e Neural Engine de 16 núcleos.",
           },
           {
             id: "3",
-            label: "16 Polegadas / Memória RAM: 36GB / 96GB:",
-            info: " Chip M3 Max da Apple com CPU de 14 núcleos, GPU de 30 núcleos e Neural Engine de 16 núcleos.",
+            label: "Studio M2 Ultra - Versão 1:",
+            info: "Memória RAM: 64 GB / 128 GB / 192 GB | Chip M2 Ultra da Apple com CPU de 24 núcleos, GPU de 60 núcleos e Neural Engine de 32 núcleos.",
           },
           {
             id: "4",
-            label: "16 Polegadas / Memória RAM: 48GB / 64GB / 128GB:",
-            info: " Chip M3 Max da Apple com CPU de 16 núcleos, GPU de 40 núcleos e Neural Engine de 16 núcleos.",
+            label: "Studio M2 Ultra - Versão 2:",
+            info: "Memória RAM: 64 GB / 128 GB / 192 GB | Chip M2 Ultra da Apple com CPU de 24 núcleos, GPU de 76 núcleos e Neural Engine de 32 núcleos.",
           },
         ],
-        modelos: [],
-        armazenamento: [],
-        cores: [
+        armazenamento: [
           {
             id: "1",
-            label: "Prateado",
+            label: "Studio M2 Max - Versão 1:",
+            info: "512 GB / 1TB / 2TB / 4TB / 8TB",
           },
           {
             id: "2",
-            label: "Preto Espacial",
+            label: "Studio M2 Max - Versão 2:",
+            info: "512 GB / 1TB / 2TB / 4TB / 8TB ",
+          },
+          {
+            id: "3",
+            label: "Studio M2 Ultra - Versão 1:",
+            info: "1TB / 2TB / 4TB / 8TB ",
+          },
+          {
+            id: "4",
+            label: "Studio M2 Ultra - Versão 2:",
+            info: "1TB / 2TB / 4TB / 8TB",
+          },
+        ],
+        cores: [
+          {
+            id: "1",
+            info: "Prateado / Preto Espacial",
+          },
+        ],
+      },
+      {
+        id: "6",
+        label: "Mini M2",
+        src: MINIM2,
+        ativo: true,
+        especificacoes: [],
+        modelos: [
+          {
+            id: "1",
+            label: "Mini M2:",
+            info: "Memória RAM: 8 GB / 16 GB / 24 GB | M2 da Apple com CPU de 8 núcleos, GPU de 10 núcleos e Neural Engine de 16 núcleos.",
+          },
+          {
+            id: "2",
+            label: "Mini M2 Pro - Versão 1:",
+            info: "Memória RAM: 16 GB / 32 GB | M2 Pro da Apple com CPU de 10 núcleos, GPU de 16 núcleos e Neural Engine de 16 núcleos.",
+          },
+          {
+            id: "3",
+            label: "Mini M2 Pro - Versão 2:",
+            info: "Memória RAM: 16 GB / 32 GB | M2 Pro da Apple com CPU de 12 núcleos, GPU de 19 núcleos e Neural Engine de 16 núcleos.",
+          },
+        ],
+        armazenamento: [
+          {
+            id: "1",
+            label: "Mini M2:",
+            info: "256 GB / 512 GB / 1TB / 2TB",
+          },
+          {
+            id: "2",
+            label: "Mini M2 Pro - Versão 1:",
+            info: "256 GB / 512 GB / 1TB / 2TB / 4TB / 8TB",
+          },
+          {
+            id: "3",
+            label: "Mini M2 Pro - Versão 2:",
+            info: "256 GB / 512 GB / 1TB / 2TB / 4TB / 8TB ",
+          },
+        ],
+        cores: [
+          {
+            id: "1",
+            info: "Prateado",
+          },
+        ],
+      },
+      {
+        id: "7",
+        label: "iMac",
+        src: IMAC,
+        ativo: true,
+        especificacoes: [],
+        modelos: [
+          {
+            id: "1",
+            label: "iMac M3 - Versão 1:",
+            info: " Chip M3 da Apple com CPU de 8 núcleos (4 de desempenho e 4 de eficiência), GPU de 8 núcleos e Neural Engine de 16 núcleos.",
+          },
+          {
+            id: "2",
+            label: "iMac M3 - Versão 2:",
+            info: "Chip M3 da Apple com CPU de 8 núcleos (4 de desempenho e 4 de eficiência), GPU de 10 núcleos e Neural Engine de 16 núcleos.",
+          },
+        ],
+        armazenamento: [
+          {
+            id: "1",
+            label: "iMac M3 - Versão 1:",
+            info: "256 GB / 512 GB / 1TB",
+          },
+          {
+            id: "2",
+            label: "iMac M3 - Versão 2:",
+            info: "256 GB / 512 GB / 1TB / 2TB ",
+          },
+        ],
+        cores: [
+          {
+            id: "1",
+            label: "iMac M3 - Versão 1:",
+            info: "Azul / Verde / Rosa / Prateado",
+          },
+          {
+            id: "2",
+            label: "iMac M3 - Versão 2:",
+            info: "Azul / Verde / Rosa / Prateado / Amarelo / Laranja / Roxo",
           },
         ],
       },
@@ -728,7 +602,16 @@ const PRODUTOS: Produto[] = [
         label: "Apple Watch SE 2",
         src: APPLE_WATCH_SE_2,
         ativo: true,
-        modelos: [],
+        modelos: [
+          {
+            id: "1",
+            info: "GPS",
+          },
+          {
+            id: "2",
+            info: "GPS+CELLULAR",
+          },
+        ],
         armazenamento: [],
         especificacoes: [
           {
@@ -741,24 +624,11 @@ const PRODUTOS: Produto[] = [
             label: "Tamanhos:",
             info: "40mm / 44mm",
           },
-          {
-            id: "3",
-            label: "Modelos:",
-            info: "GPS / GPS+CELLULAR",
-          },
         ],
         cores: [
           {
             id: "1",
-            label: "Estelar",
-          },
-          {
-            id: "2",
-            label: "Meia Noite",
-          },
-          {
-            id: "3",
-            label: "Prateado",
+            info: "Estelar / Meia Noite / Prateado",
           },
         ],
       },
@@ -767,7 +637,20 @@ const PRODUTOS: Produto[] = [
         label: "Apple Watch S9",
         src: APPLE_WATCH_S9,
         ativo: true,
-        modelos: [],
+        modelos: [
+          {
+            id: "1",
+            info: "GPS Alumínio ",
+          },
+          {
+            id: "2",
+            info: "GPS+CELLULAR Alumínio",
+          },
+          {
+            id: "3",
+            info: "GPS+CELULAR Aço Inoxidável",
+          },
+        ],
         armazenamento: [],
         especificacoes: [
           {
@@ -780,32 +663,11 @@ const PRODUTOS: Produto[] = [
             label: "Tamanhos:",
             info: "41mm / 45mm",
           },
-          {
-            id: "3",
-            label: "Modelos:",
-            info: " GPS Alumínio / GPS+CELLULAR Alumínio / GPS+CELULAR Aço Inoxidável",
-          },
         ],
         cores: [
           {
             id: "1",
-            label: "Rosa",
-          },
-          {
-            id: "2",
-            label: "Meia Noite",
-          },
-          {
-            id: "3",
-            label: "Estelar",
-          },
-          {
-            id: "4",
-            label: "Prateado",
-          },
-          {
-            id: "5",
-            label: "Vermelho",
+            info: "Rosa / Meia Noite / Estelar / Prateado / Vermelho",
           },
         ],
       },
@@ -814,7 +676,12 @@ const PRODUTOS: Produto[] = [
         label: "Apple Watch Ultra 2",
         src: APPLE_WATCH_ULTRA_2,
         ativo: true,
-        modelos: [],
+        modelos: [
+          {
+            id: "1",
+            info: "GPS+CELLULAR",
+          },
+        ],
         armazenamento: [],
         especificacoes: [
           {
@@ -827,16 +694,11 @@ const PRODUTOS: Produto[] = [
             label: "Tamanho:",
             info: "49mm",
           },
-          {
-            id: "3",
-            label: "Modelo:",
-            info: " GPS+CELLULAR",
-          },
         ],
         cores: [
           {
             id: "1",
-            label: "Titânio",
+            info: "Titânio",
           },
         ],
       },
@@ -848,19 +710,19 @@ const PRODUTOS: Produto[] = [
         modelos: [
           {
             id: "1",
-            label: "AirPods 2",
+            info: "AirPods 2",
           },
           {
             id: "2",
-            label: "AirPods 3",
+            info: "AirPods 3",
           },
           {
             id: "3",
-            label: "AirPods Pro 2",
+            info: "AirPods Pro 2",
           },
           {
             id: "4",
-            label: "AirPods Max",
+            info: "AirPods Max",
           },
         ],
         armazenamento: [],
@@ -868,23 +730,13 @@ const PRODUTOS: Produto[] = [
         cores: [
           {
             id: "1",
-            label: "Branco (AirPods 2 / AirPods 3 / AirPods Prop 2)",
+            label: "AirPods 2 / AirPods 3 / AirPods Pro 2:",
+            info: "Branco",
           },
           {
             id: "2",
-            label: "Cinza Espacial",
-          },
-          {
-            id: "3",
-            label: "Rosa",
-          },
-          {
-            id: "4",
-            label: "Verde",
-          },
-          {
-            id: "5",
-            label: "Azul Céu",
+            label: "AirPods Max:",
+            info: "Cinza Espacial / Rosa / Verde / Azul Céu",
           },
         ],
       },

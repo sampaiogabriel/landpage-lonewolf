@@ -13,7 +13,7 @@ const Container = styled.div`
 const Info = styled.div``;
 
 const CoresContainer = styled.div`
-  max-width: 300px;
+  max-width: 350px;
   width: 100%;
 `;
 

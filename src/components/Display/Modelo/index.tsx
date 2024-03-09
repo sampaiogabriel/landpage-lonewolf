@@ -15,15 +15,24 @@ const Modelo: FC<ModelosProps> = ({ modelos }) => {
 
   return (
     <S.Container>
-      <Icon icon='modelo' />
+      <Icon icon='apple' />
       <S.Info>
         <h5 className="h5 semibold">
-          {modelos.length > 1 ? 'Modelos' : 'Modelo'}
+          Modelos
         </h5>
         {modelos.map((modelo) => (
-          <span key={modelo.id} className="medium">
-            {modelo.label}
-          </span>
+          <div key={modelo.id} style={{ marginBottom: '4px' }}>
+            {modelo.label && (
+              <span className="medium semibold" style={{ marginRight: '4px' }}>
+                {modelo.label}
+              </span>
+            )}
+            {modelo.info && (
+              <span className="medium">
+                {modelo.info}
+              </span>)
+            }
+          </div>
         ))}
       </S.Info>
     </S.Container>

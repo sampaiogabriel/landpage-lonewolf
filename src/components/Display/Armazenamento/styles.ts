@@ -10,6 +10,12 @@ const Container = styled.div`
   color: #fcfcfc;
 `;
 
-const Info = styled.div``;
+const Info = styled.div`
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  max-width: 350px;
+`;
 
 export default { Container, Info };

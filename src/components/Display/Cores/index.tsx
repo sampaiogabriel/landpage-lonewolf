@@ -21,11 +21,19 @@ const Cores: FC<CoresProps> = ({ cores }) => {
           {cores.length > 1 ? 'Cores' : 'Cor'}
         </h5>
         <S.CoresContainer>
-          {cores.map((cor, index) => (
-            <span key={cor.id} className="medium">
-              {cor.label}
-              {index !== cores.length - 1 && ' / '}
-            </span>
+          {cores.map((cor) => (
+            <div key={cor.id} style={{ marginBottom: '4px' }}>
+              {cor.label && (
+                <span className="medium semibold" style={{ marginRight: '4px' }}>
+                  {cor.label}
+                </span>
+              )}
+              {cor.info && (
+                <span className="medium">
+                  {cor.info}
+                </span>
+              )}
+            </div>
           ))}
         </S.CoresContainer>
       </S.Info>

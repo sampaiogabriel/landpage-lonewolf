@@ -26,12 +26,8 @@ const EspecificacoesInfo = styled.div`
 `;
 
 const EspecificacaoInfo = styled.div`
-  max-width: 400px;
+  max-width: 350px;
   width: 100%;
-
-  span {
-    margin-left: 4px;
-  }
 `;
 
 export default { Container, Info, EspecificacoesInfo, EspecificacaoInfo };

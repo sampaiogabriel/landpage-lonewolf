@@ -25,9 +25,9 @@ const VitrineProdutos: FC<VitrineProdutosProps> = ({ produto }) => {
             {produto?.label}
           </h2>
         </S.ContainerTitle>
+        <Modelo modelos={produto?.modelos} />
         <Cores cores={produto?.cores} />
         <Armazenamento armazenamentos={produto?.armazenamento} />
-        <Modelo modelos={produto?.modelos} />
         <Especificacoes especificacoes={produto?.especificacoes} />
         <CTA id="cta-compra-agora" style={{ width: '100%' }}>Compra Agora</CTA>
         <S.ContainerWhatsapp>

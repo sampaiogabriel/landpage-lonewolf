@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ModeloIcon: React.FC<{ width?: number; height?: number; fill?: string }> = ({
+const EspecificacaoIcon: React.FC<{ width?: number; height?: number; fill?: string }> = ({
   width = 24,
   height = 24,
   fill = '#FCFCFC',
@@ -13,4 +13,4 @@ const ModeloIcon: React.FC<{ width?: number; height?: number; fill?: string }> =
   </svg>
 );
 
-export default ModeloIcon;
+export default EspecificacaoIcon;

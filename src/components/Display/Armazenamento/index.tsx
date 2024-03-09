@@ -18,13 +18,21 @@ const Cores: FC<CoresProps> = ({ armazenamentos }) => {
       <Icon icon='armazenamento' />
       <S.Info>
         <h5 className="h5 semibold">
-          {armazenamentos.length > 1 ? 'Armazenamentos' : 'Armazenamento'}
+          Armazenamentos
         </h5>
-        {armazenamentos.map((armazenamento, index) => (
-          <span key={armazenamento.id} className="medium">
-            {armazenamento.label}
-            {index !== armazenamentos.length - 1 && ' / '}
-          </span>
+        {armazenamentos.map((armazenamento) => (
+          <div key={armazenamento.id} style={{ marginBottom: '4px' }}>
+            {armazenamento.label && (
+              <span className="medium semibold" style={{ marginRight: '4px' }}>
+                {armazenamento.label}
+              </span>
+            )}
+            {armazenamento.info && (
+              <span className="medium regular">
+                {armazenamento.info}
+              </span>
+            )}
+          </div>
         ))}
       </S.Info>
     </S.Container>

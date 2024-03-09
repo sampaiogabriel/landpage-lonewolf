@@ -3,10 +3,11 @@ import { FC } from "react";
 import S from './styles'
 import CorIcon from "../../Icons/Cor";
 import ArmazenamentoIcon from "../../Icons/Armazenamento";
-import ModeloIcon from "../../Icons/Modelo";
+import EspecificacaoIcon from "../../Icons/Modelo";
+import { AppleOutlined } from "@ant-design/icons";
 
 interface IconProps {
-  icon: 'cores' | 'armazenamento' | 'modelo'
+  icon: 'cores' | 'armazenamento' | 'especificacao' | 'apple'
 }
 
 const Icon: FC<IconProps> = ({ icon }) => {
@@ -19,8 +20,11 @@ const Icon: FC<IconProps> = ({ icon }) => {
       case 'armazenamento':
         return <ArmazenamentoIcon />
 
-      case 'modelo':
-        return <ModeloIcon />
+      case 'especificacao':
+        return <EspecificacaoIcon />
+
+      case 'apple':
+        return <AppleOutlined style={{ fontSize: '24px' }} />
 
       default:
         break;
