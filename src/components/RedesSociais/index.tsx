@@ -2,13 +2,10 @@ import { FC } from "react";
 
 import S from './styles'
 import { InstagramOutlined, PinterestOutlined, TikTokOutlined, YoutubeOutlined } from "@ant-design/icons";
+import { Link } from "react-router-dom";
 
-const REDE_SOCIAIS = ['', '', '', '']
 
 const RedeSociais: FC = () => {
-  const onClickRedirect = (link: string) => {
-    console.log('click', link);
-  }
 
   return (
     <S.Container>
@@ -16,24 +13,33 @@ const RedeSociais: FC = () => {
         Redes Sociais
       </h5>
       <div>
-        <div className="svg" onClick={() => onClickRedirect(REDE_SOCIAIS[0])}>
-          <InstagramOutlined />
-        </div>
 
-        <div className="svg" onClick={() => onClickRedirect(REDE_SOCIAIS[1])}>
-          <TikTokOutlined />
-        </div>
+        <Link to="https://www.instagram.com/rafadalonewolf" target="_blank" rel="noopener noreferrer">
+          <div className="svg">
+            <InstagramOutlined />
+          </div>
+        </Link>
 
-        <div className="svg" onClick={() => onClickRedirect(REDE_SOCIAIS[2])}>
-          <YoutubeOutlined />
-        </div>
+        <Link to="https://www.tiktok.com/@rafadalonewolf" target="_blank" rel="noopener noreferrer">
+          <div className="svg">
+            <TikTokOutlined />
+          </div>
+        </Link>
 
-        <div className="svg" onClick={() => onClickRedirect(REDE_SOCIAIS[3])}>
-          <PinterestOutlined />
-        </div>
+        <Link to="https://www.youtube.com/channel/UCTSR4-t1zkxr5u8vRUjMAIA" target="_blank" rel="noopener noreferrer">
+          <div className="svg">
+            <YoutubeOutlined />
+          </div>
+        </Link>
 
-      </div>
-    </S.Container>
+        <Link to="https://pin.it/2kQKjiqMu" target="_blank" rel="noopener noreferrer">
+          <div className="svg">
+            <PinterestOutlined />
+          </div>
+        </Link>
+
+      </div >
+    </S.Container >
   )
 }
 

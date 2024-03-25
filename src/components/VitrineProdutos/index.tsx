@@ -14,6 +14,11 @@ interface VitrineProdutosProps {
 }
 
 const VitrineProdutos: FC<VitrineProdutosProps> = ({ produto }) => {
+
+  const onClickComprar = () => {
+    window.location.href = 'https://lonewolf.forms.app/cadastro'
+  }
+
   return (
     <S.Container>
       <S.ContainerImg>
@@ -29,7 +34,7 @@ const VitrineProdutos: FC<VitrineProdutosProps> = ({ produto }) => {
         <Cores cores={produto?.cores} />
         <Armazenamento armazenamentos={produto?.armazenamento} />
         <Especificacoes especificacoes={produto?.especificacoes} />
-        <CTA id="cta-compra-agora" style={{ width: '100%' }}>Compra Agora</CTA>
+        <CTA id="cta-compra-agora" style={{ width: '100%' }} onClick={onClickComprar}>Compra Agora</CTA>
         <S.ContainerWhatsapp>
           <WhatsappButton />
         </S.ContainerWhatsapp>
