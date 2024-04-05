@@ -8,7 +8,7 @@ import ButtonSecondary from "../Buttons/Secondary";
 const WhatsappButton: FC = () => {
 
   const redirect = () => {
-    window.location.href = 'https://wa.me/+553298320382';
+    window.location.href = 'https://wa.me/message/ZTNPK32RY7UNC1';
   }
 
   return (
