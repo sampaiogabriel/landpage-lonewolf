@@ -2,11 +2,11 @@ import { FC } from 'react';
 import { Helmet as ReactHelmet } from 'react-helmet';
 
 const Helmet: FC = () => {
-  const pageTitle = 'Panelas Mumbai - Elegância e Eficiência na Sua Cozinha';
-  const pageDescription = 'Descubra a elegância e eficiência das Panelas Mumbai. Renove sua cozinha com nossas panelas de alta qualidade, projetadas para atender aos padrões dos chefs mais exigentes e dos amantes da culinária.';
-  const pageKeywords = 'panelas, Mumbai, cozinha, elegância, eficiência, qualidade, culinária, chefs';
-  const projectTitle = "Panelas Mumbai";
-  const projectURL = "https://panelasmumbai.com"
+  const pageTitle = 'Lonewolf';
+  const pageDescription = 'Descubra a tecnologia e inovação da Lonewolf Importados. Renove sua vida com produtos da Apple de alta qualidade, projetados para atender aos mais altos padrões de tecnologia e estilo.';
+  const pageKeywords = 'Lonewolf, importação, produtos, Apple, tecnologia, inovação, qualidade';
+  const projectTitle = "Lonewolf Importados";
+  const projectURL = "https://universolonewolf.com.br/"
   const projectLogoURL = "https://i.imgur.com/gIhiHJ2.png";
 
   return (
