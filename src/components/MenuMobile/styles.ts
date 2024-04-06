@@ -35,9 +35,13 @@ const Container = styled.section<{ isVisible: boolean }>`
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 2rem;
+    gap: 4rem;
     transform: scale(0.7);
     transition: 0.7s;
+
+    a {
+      font-size: 24px;
+    }
   }
 
   ${({ isVisible }) =>

@@ -112,7 +112,7 @@ const ImagemContainer = styled.div`
 
       span {
         font-family: "Work Sans";
-        font-size: 14px;
+        font-size: 16px;
         font-style: normal;
         font-weight: 600;
       }
