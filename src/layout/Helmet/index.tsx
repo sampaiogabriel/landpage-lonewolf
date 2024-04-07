@@ -7,7 +7,7 @@ const Helmet: FC = () => {
   const pageKeywords = 'Lonewolf, importação, produtos, Apple, tecnologia, inovação, qualidade';
   const projectTitle = "Lonewolf Importados";
   const projectURL = "https://universolonewolf.com.br/"
-  const projectLogoURL = "https://i.imgur.com/gIhiHJ2.png";
+  const projectLogoURL = "https://i.imgur.com/E2VI5TR.png";
 
   return (
     <ReactHelmet>
