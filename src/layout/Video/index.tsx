@@ -17,7 +17,7 @@ const Video: FC = () => {
           <iframe
             width="100%"
             height="274"
-            src="https://www.youtube.com/watch?v=urTfEEsGHds"
+            src="https://www.youtube.com/embed/urTfEEsGHds?si=mHgwUnflMRYhu3L9"
             title="Iphone 15 - Pro"
             frameBorder="0"
             allow="accelerometer; 
