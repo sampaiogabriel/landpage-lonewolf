@@ -35,14 +35,21 @@ The goal was to simulate a professional environment for building a landing page 
 ## 📸 Preview
 
 <details>
-  <summary>Click to expand desktop preview</summary>
+  <summary>Desktop Preview - Homepage</summary>
 
 ![Desktop Lonewolf Landing Page](/Desktop%20Screencapture.png)
 
 </details>
 
 <details>
-  <summary>Click to expand mobile preview</summary>
+  <summary>Desktop Preview - Products</summary>
+
+![Desktop Lonewolf Landing Page](/Desktop%20Screencapture%203.png)
+
+</details>
+
+<details>
+  <summary>Mobile Preview - Homepage</summary>
 
 ![Mobile Lonewolf Landing Page](/Mobile%20Screencapture.png)
 
