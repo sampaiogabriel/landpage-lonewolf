@@ -1,6 +1,6 @@
 i# 🐺 LoneWolf Importer — Landing Page
 
-This project is a **responsive landing page** developed as a **front-end study**, focusing on **modern design**, **SEO best practices**, and **refined visual details**. The idea was to create the visual identity and digital interface for a **fictitious importer company named LoneWolf**.
+This project is a **responsive landing page** developed as a **front-end study**, focusing on **modern design**, **SEO best practices**, and **refined visual details**.
 
 ![Desktop Lonewolf Landing Page](/Desktop.png)
 
