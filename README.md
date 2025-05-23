@@ -1,4 +1,4 @@
-# 🐺 LoneWolf Importer — Landing Page
+i# 🐺 LoneWolf Importer — Landing Page
 
 This project is a **responsive landing page** developed as a **front-end study**, focusing on **modern design**, **SEO best practices**, and **refined visual details**. The idea was to create the visual identity and digital interface for a **fictitious importer company named LoneWolf**.
 
@@ -19,32 +19,34 @@ The goal was to simulate a professional environment for building a landing page 
 
 ## 🛠️ Technologies Used
 
-- **HTML5** — Semantic structure.
-- **CSS3 / Sass** — Advanced styling, responsiveness, and visual effects.
-- **Vanilla JavaScript (ES6+)** — Interactivity and animations.
-- **AOS (Animate On Scroll)** — Scroll-based entry animations.
-- **Google Fonts** — Modern and harmonious typography.
-- **Figma** (external) — Design and logo creation.
-
-## 📁 Project Structure
-
-```plaintext
-├── assets/
-│   ├── fonts/
-│   ├── icons/
-│   └── images/
-├── css/
-│   └── styles.css
-├── js/
-│   └── main.js
-├── index.html
-└── README.md
-```
+| Technology                         | Description                                                                                                                         |
+| ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| **React 18**                       | Library used to build the component-based structure of the landing page with a modern declarative approach.                         |
+| **Vite**                           | Ultra-fast development server and bundler optimized for modern JavaScript frameworks — used for building and deploying the project. |
+| **TypeScript**                     | Adds static typing to JavaScript, improving code reliability, maintainability, and developer experience.                            |
+| **Styled-Components**              | Enables writing CSS directly in JavaScript with scoped styles, dynamic props, and theme management.                                 |
+| **React Router DOM**               | Handles client-side routing, enabling a multi-section SPA experience with clean navigation.                                         |
+| **React Helmet**                   | Manages dynamic metadata, enabling enhanced SEO and control over the HTML `<head>`.                                                 |
+| **ScrollReveal**                   | JavaScript library used for scroll-triggered animations to enrich user interaction and visual flow.                                 |
+| **React Icons & Ant Design Icons** | Vector-based icon packs for consistent and scalable iconography across the UI.                                                      |
+| **Google Fonts**                   | Modern web fonts used to define a distinct and harmonious typographic identity.                                                     |
+| **ESLint + TypeScript ESLint**     | Linting tools to maintain clean, consistent, and bug-free code.                                                                     |
 
 ## 📸 Preview
 
-> You can view the live landing page at:  
-> **[https://sampaiogabriel.github.io/landpage-lonewolf/](https://sampaiogabriel.github.io/landpage-lonewolf/)**
+<details>
+  <summary>Click to expand desktop preview</summary>
+
+![Desktop Lonewolf Landing Page](/Desktop%20Screencapture.png)
+
+</details>
+
+<details>
+  <summary>Click to expand mobile preview</summary>
+
+![Mobile Lonewolf Landing Page](/Mobile%20Screencapture.png)
+
+</details>
 
 ## 📚 What I Learned
 
