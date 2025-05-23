@@ -11,35 +11,40 @@ import App from "./App";
 import Outros from "./pages/Outros";
 import ProdutoPage from "./pages/Produto";
 
-const router = createBrowserRouter([
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <App />,
+      errorElement: <ErrorPage />,
+      children: [
+        {
+          path: "/",
+          element: <Inicio />,
+        },
+        {
+          path: "/catalogo",
+          element: <Catalogo />,
+        },
+        {
+          path: "/catalogo/:produto",
+          element: <ProdutoPage />,
+        },
+        {
+          path: "/catalogo/outros",
+          element: <Outros />,
+        },
+        {
+          path: "/pontos-de-venda",
+          element: <PontosDeVenda />,
+        },
+      ],
+    },
+  ],
   {
-    path: "/",
-    element: <App />,
-    errorElement: <ErrorPage />,
-    children: [
-      {
-        path: "/",
-        element: <Inicio />,
-      },
-      {
-        path: "/catalogo",
-        element: <Catalogo />,
-      },
-      {
-        path: "/catalogo/:produto",
-        element: <ProdutoPage />,
-      },
-      {
-        path: "/catalogo/outros",
-        element: <Outros />,
-      },
-      {
-        path: "/pontos-de-venda",
-        element: <PontosDeVenda />,
-      },
-    ],
-  },
-]);
+    basename: "/landpage-lonewolf",
+  }
+);
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
